@@ -1,0 +1,116 @@
+/* Simple Responsive Framework */
+h1 {
+	margin-bottom: 15px;
+	font-weight: 3;
+	color: #FF5733;
+	text-align: center;
+}
+
+body {
+	font-family: Lato, Calibri, Arial, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+div {
+	border: 1px solid black;
+	margin-bottom: 15px;
+	padding: 10px 5px 0px 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+h3 {
+	border: 1px solid black;
+	float: right;
+	position: relative;
+	bottom: 30px;
+	left: 6px;
+	padding: 10px;
+}	
+
+p {
+	position: relative;
+	clear: right;
+	bottom: 20px;
+}
+
+#uno {
+	color: white;
+	background-color: #c70039;
+}
+
+#dos {
+	color: white;
+	background-color: #900c3f;
+}
+
+#tres {
+	color: white;
+	background-color: #581845;
+}
+
+/*
+.p2-l, .p2-m {
+	margin-right: 15px;
+	margin-left: 15px;
+
+
+	top right bottom left
+}
+*/
+
+.row {
+	width: 100%
+}
+
+/* Large devices - Desktop version */
+@media (min-width: 992px){ .p1-l, .p2-l, .p3-l {
+	float: left;
+}
+	.p1-l {
+		width: 30%;
+	}
+	.p2-l {
+		width: 30%
+	}
+	.p3-l {
+		width: 30%
+	}	
+	
+}
+
+/* 	Medium devices - Tablet version */
+@media (min-width: 768px) and (max-width: 991px){ .p1-m, .p2-m, .p3-m{
+	float: left;
+}
+	.p1-m {
+		width: 40%
+	}
+	.p2-m {
+		width: 40%
+	}
+	.p3-m {
+		width: 83%
+	}
+
+}
+
+/* Small devices - Mobile version */
+@media (max-width: 767px){ .p1-s, .p2-s, .p3-s{
+	float: left;
+}
+	.p1-s {
+		width: 70%
+	}
+	.p2-s {
+		width: 70%
+	}
+	.p3-s {
+		width: 70%
+	}
+
+}
+
